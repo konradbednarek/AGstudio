@@ -1,0 +1,36 @@
+
+.contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.1em;
+  .contact__container {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .contact__title {
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: .8rem 0;
+  }
+  .contact__subtitle {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 4rem;
+  }
+}
+
+.address {
+  font-style: normal;
+  margin-bottom: 4rem;
+  .address__title {
+    font-weight: 500;
+  }
+  .address__p {
+    font-weight: 300;
+  }
+}

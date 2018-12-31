@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+  <meta charset='utf-8' />
+  <title>AG Studio</title>
+  <meta name="description" content="AG Studio, to dom produkcyjny wywodzący się ze Śląska. Realizujemy wszelkie formy filmowe, od reklam po teledyski.">
+  <meta name="keywords" content="teledyski, filmy reklamowe, filmy korporacyjne, filmy promocyjne, montaż filmowy, polska, Śląsk, Katowice, Kraków, Warszawa">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,400,500&amp;subset=latin-ext" rel="stylesheet">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css' integrity='sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU'
+    crossorigin='anonymous'>
+  <link rel='stylesheet' href='src/css/normalize.css'>
+  <link rel='stylesheet' href='src/css/style.css'>
+
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="AG Studio">
+  <meta name="application-name" content="AG Studio">
+
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#000000">
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+  <!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+  <div class='loader'>
+    <img class='loader__img' src="src/images/logo.png" alt="AG Studio">
+    <p class='loader__p'>Ładowanie...</p>
+  </div>
+  <header class='header'>
+    <h1 class='header__title'>
+      <a class='header__link animateLink' href='./'>
+        <img class='header__logo' src='src/images/logo.png' alt='AG Studio'>
+      </a>
+    </h1>
+    <nav class='nav-menu'>
+      <ul class='nav-menu__list' id='main-nav'>
+        <li class='nav-menu__item'>
+          <a class='nav-menu__link animateLink' href='./'>Teledyski</a>
+        </li>
+        <li class='nav-menu__item'>
+          <a class='nav-menu__link animateLink' href='filmy_reklamowe/'>Filmy reklamowe</a>
+        </li>
+        <li class='nav-menu__item'>
+          <a class='nav-menu__link animateLink' href='fotografia/'>Fotografia</a>
+        </li>
+        <li class='nav-menu__item'>
+          <a class='nav-menu__link animateLink' href='o_nas/'>O nas</a>
+        </li>
+        <li class='nav-menu__item'>
+          <a class='nav-menu__link animateLink' href='kontakt/'>Kontakt</a>
+        </li>
+        <li class='nav-menu__item'>
+          <a class='nav-menu__link animateLink' href='blog/'>Blog</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class='galleryContainer'>
+    <!-- Sekcja z większymi grafikami ( trzy w rzędzie ) -->
+    <section class='primaryGallery'>
+      <div class="presentation presentation--hidden"></div>
+      <ul class='primaryGallery__list'>
+        <li class='primaryGallery__item'>
+          <a class='primaryGallery__link' href='#project' data-title='Agnieszka Chylińska – Królowa Łez' data-date='Wrzesień 2016'
+            data-project='Agnieszka Chylińska – Królowa Łez' data-client='Warner Music Poland' data-director='Adam Gawenda'
+            data-DOP='Kacper Sędzielewski' data-source='278129047'>
+            <img class='primaryGallery__image' src='src/images/teledysk_1.jpg' alt='Miniatura teledysku - Agnieszka Chylińska – Królowa Łez'>
+            <div class='primaryGallery__descCase'>
+              <p class='primaryGallery__desc'>Agnieszka Chylińska – Królowa Łez</p>
+            </div>
+          </a>
+        </li>
+        <li class='primaryGallery__item'>
+          <a class='primaryGallery__link' href='#project' data-title='MIYO ft. Bedoes – Choker' data-date='Czerwiec 2018'
+            data-project='MIYO ft. Bedoes – Choker' data-client='Step Records' data-director='Adam Gawenda' data-DOP='Adam Gawenda'
+            data-source='278123976'>
+            <img class='primaryGallery__image' src='src/images/teledysk_2.jpg' alt='Miniatura teledysku - MIYO ft. Bedoes – Choker'>
+            <div class='primaryGallery__descCase'>
+              <p class='primaryGallery__desc'>MIYO ft. Bedoes – Choker</p>
+            </div>
+          </a>
+        </li>
+        <li class='primaryGallery__item'>
+          <a class='primaryGallery__link' href='#project' data-title='Natalia Szroeder – Parasole' data-date='Marzec 2018'
+            data-project='Natalia Szroeder – Parasole' data-client='Margo Entertainment' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='279456764'>
+            <img class='primaryGallery__image' src='src/images/teledysk_3.jpg' alt='Miniatura teledysku - Natalia Szroeder – Parasole'>
+            <div class='primaryGallery__descCase'>
+              <p class='primaryGallery__desc'>Natalia Szroeder – Parasole</p>
+            </div>
+          </a>
+        </li>
+        <li class='primaryGallery__item'>
+          <a class='primaryGallery__link' href='#project' data-title='PlanBe – Oh Love' data-date='Wrzesień 2018'
+            data-project='PlanBe – Oh Love' data-client='Quequality' data-director='Adam Gawenda' data-DOP='Adam Gawenda'
+            data-source='280509943'>
+            <img class='primaryGallery__image' src='src/images/teledysk_4.jpg' alt='Miniatura teledysku - PlanBe – Oh Love'>
+            <div class='primaryGallery__descCase'>
+              <p class='primaryGallery__desc'>PlanBe – Oh Love</p>
+            </div>
+          </a>
+        </li>
+        <li class='primaryGallery__item'>
+          <a class='primaryGallery__link' href='#project' data-title='Sound’n’Grace – Someone (“Listy do M2” soundtrack)'
+            data-date='Październik 2017' data-project='Sound’n’Grace – Someone (“Listy do M2” soundtrack)' data-client='TVN'
+            data-director='Adam Gawenda' data-DOP='Adam Gawenda' data-source='290488528'>
+            <img class='primaryGallery__image' src='src/images/teledysk_5.jpg' alt='Miniatura teledysku - Sound’n’Grace – Someone'>
+            <div class='primaryGallery__descCase'>
+              <p class='primaryGallery__desc'>Sound’n’Grace – Someone (“Listy do M2” soundtrack)</p>
+            </div>
+          </a>
+        </li>
+        <li class='primaryGallery__item'>
+          <a class='primaryGallery__link' href='#project' data-title='Sound’n’Grace ft. Filip Lato – 100' data-date='Czerwiec 2017'
+            data-project='Sound’n’Grace ft. Filip Lato – 100' data-client='Gorgo Music' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='279463867'>
+            <img class='primaryGallery__image' src='src/images/teledysk_6.jpg' alt='Miniatura teledysku - Sound’n’Grace ft. Filip Lato – 100'>
+            <div class='primaryGallery__descCase'>
+              <p class='primaryGallery__desc'>Sound’n’Grace ft. Filip Lato – 100</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- Sekcja z mniejszymi grafikami ( max sześć w rzędzie ) -->
+    <section class='secondaryGallery'>
+      <ul class='secondaryGallery__list'>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Mrozu – Poza logiką' data-date='Październik 2014'
+            data-project='Mrozu – Poza logiką' data-client='Gorgo Music' data-director='Adam Gawenda' data-DOP='Adam Gawenda'
+            data-source='110935878'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_7.jpg' alt='Miniatura teledysku - Mrozu – Poza logiką'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Mrozu – Poza logiką</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Marcin Wyrostek – Maria Stuart' data-date='Styczeń 2015'
+            data-project='Marcin Wyrostek – Maria Stuart' data-client='Marcin Wyrostek' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='120281647'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_8.jpg' alt='Miniatura teledysku - Marcin Wyrostek – Maria Stuart'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Marcin Wyrostek – Maria Stuart</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Rafał Brzozowski – Już wiem' data-date='Lipiec 2017'
+            data-project='Rafał Brzozowski – Już wiem' data-client='Universal Music' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='280510526'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_9.jpg' alt='Miniatura teledysku - Rafał Brzozowski – Już wiem'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Rafał Brzozowski – Już wiem</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Kartky – Mój kolega diler' data-date='Maj 2018'
+            data-project='Kartky – Mój kolega diler' data-client='Quequality' data-director='Adam Gawenda' data-DOP='Adam Gawenda'
+            data-source='280509943'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_10.jpg' alt='Miniatura teledysku - Kartky – Mój kolega diler'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Kartky – Mój kolega diler</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Liber I Natalia Szroeder – Teraz Ty' data-date='Wrzesień 2014'
+            data-project='Liber I Natalia Szroeder – Teraz Ty' data-client='Gorgo Music' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='110484204'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_11.jpg' alt='Miniatura teledysku - Liber I Natalia Szroeder – Teraz Ty'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Liber I Natalia Szroeder – Teraz Ty</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Natalia Szroeder – Powietrze' data-date='Październik 2016'
+            data-project='Natalia Szroeder – Powietrze' data-client='Warner Music Poland' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='280509943'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_12.jpg' alt='Miniatura teledysku - Natalia Szroeder – Powietrze'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Natalia Szroeder – Powietrze</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Tetris – Moroder' data-date='Listopad 2015'
+            data-project='Tetris – Moroder' data-client='Warner Music Poland' data-director='Adam Gawenda' data-DOP='Adam Gawenda'
+            data-source='144888563'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_13.jpg' alt='Miniatura teledysku - Tetris – Moroder'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Tetris – Moroder</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='PAWBEATS & VNM X MASIA – MONOTONIA' data-date='Luty 2016'
+            data-project='PAWBEATS & VNM X MASIA – MONOTONIA' data-client='Step Records' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='290489271'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_14.jpg' alt='Miniatura teledysku - PAWBEATS & VNM X MASIA – MONOTONIA'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>PAWBEATS & VNM X MASIA – MONOTONIA</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Natalia Szroeder – Zamienię Cię' data-date='Kwiecień 2017'
+            data-project='Natalia Szroeder – Zamienię Cię' data-client='Warner Music Poland' data-director='Adam Gawenda'
+            data-DOP='Adam Gawenda' data-source='280509943'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_15.jpg' alt='Miniatura teledysku - Natalia Szroeder – Zamienię Cię'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Natalia Szroeder – Zamienię Cię</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Emes Milligan - Lubię jak tańczysz' data-date='-'
+            data-project='Emes Milligan - Lubię jak tańczysz' data-client='-' data-director='-' data-DOP='-'
+            data-source='280509943'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_16.jpg' alt='Miniatura teledysku - Emes Milligan - Lubię jak tańczysz'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Emes Milligan - Lubię jak tańczysz</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Skorup & JazBrothers ft. Mela Koteluk - Chłodny front'
+            data-date='-' data-project='Skorup & JazBrothers ft. Mela Koteluk - Chłodny front' data-client='-'
+            data-director='-' data-DOP='-' data-source='280509943'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_17.jpg' alt='Miniatura teledysku - Skorup & JazBrothers ft. Mela Koteluk - Chłodny front'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Skorup & JazBrothers ft. Mela Koteluk - Chłodny front</p>
+            </div>
+          </a>
+        </li>
+        <li class='secondaryGallery__item'>
+          <a class='secondaryGallery__link' href='#project' data-title='Tune - Sky High' data-date='-' data-project='Tune - Sky High'
+            data-client='-' data-director='-' data-DOP='-' data-source='280509943'>
+            <img class='secondaryGallery__image' src='src/images/teledysk_18.jpg' alt='Miniatura teledysku - Tune - Sky High'>
+            <div class='secondaryGallery__descCase'>
+              <p class='secondaryGallery__desc'>Tune - Sky High</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <a class='change__link animateLink' href='filmy_reklamowe/'>Filmy reklamowe</a>
+  </div>
+
+  <footer class='footer'>
+    <p class='footer__p'>AG Studio 2018 Realizacja <a href='https://konradbednarek.github.io/portfolio/' target='_blank'
+        rel='noopener'>Konrad Bednarek</a></p>
+    <div class='footer__case'>
+      <h2 class='footer__title'>Skontaktuj się z nami</h2>
+      <ul class='footer__list'>
+        <li class='footer__item'>
+          <a class='footer__link' href='https://www.facebook.com/agstudioPL' target='_blank' rel='noopener'>
+            <span class='hidden'>Facebook</span><span class='fab fa-facebook-f footer__icon' aria-hidden='true'></span>
+          </a>
+        </li>
+        <li class='footer__item'>
+          <a class='footer__link' href='https://vimeo.com/agstudio' target='_blank' rel='noopener'>
+            <span class='hidden'>Vimeo</span><span class='fab fa-vimeo-v footer__icon' aria-hidden='true'></span>
+          </a>
+        </li>
+        <li class='footer__item'>
+          <a class='footer__link' href='https://www.instagram.com/agstudio_tg/' target='_blank' rel='noopener'>
+            <span class='hidden'>Instagram</span><span class='fab fa-instagram footer__icon' aria-hidden='true'></span>
+          </a>
+        </li>
+        <li class='footer__item'>
+          <a class='footer__link' href='mailto:info@ag-studio.pl'>
+            <span class='hidden'>Email</span><span class='fas fa-envelope footer__icon' aria-hidden='true'></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src='build/src/js/player.js'></script>
+  <script src='build/src/js/script.js'></script>
+</body>
+
+</html>
